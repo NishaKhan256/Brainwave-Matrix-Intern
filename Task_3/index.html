@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website Design || ScholarlyHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <a href="index.html">
+                <img class="logo" src="assets/logo.png" alt="Logo">
+            </a>
+
+            <div class="nav-links">
+                <div class="close-btn" onclick="toggleMenu()">
+                    <!-- <i class="fa-solid fa-xmark"></i> -->
+                </div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="text-box">
+            <h1 class="title">Welcome to the World's Largest University</h1>
+            <p>Where knowledge meets innovation! Join a global community of scholars, explore limitless opportunities,
+                and shape your future with world-class education.
+                At our university, we empower you with cutting-edge research, expert faculty, and state-of-the-art
+                facilities. Whether you're pursuing academic excellence, groundbreaking discoveries, or career
+                advancement, we provide the perfect environment for you to thrive.
+                Unlock your potential, connect with brilliant minds, and be part of a legacy that shapes tomorrow’s
+                leaders. " Your journey to excellence starts here! "</p>
+            <a href="#" class="hero-btn">Discover More</a>
+        </div>
+
+    </section>
+
+       <!-- About -->
+       <section class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/about.jpg" alt="About Us">
+            </div>
+            <div class="about-content">
+                <h2>About Our University</h2>
+                <p>Welcome to the world’s leading university where innovation meets excellence! We are committed to empowering students with cutting-edge education, world-class faculty, and a global learning experience.</p>
+                <p>Our mission is to inspire creativity, foster research, and provide top-tier education that prepares students for a bright future. Join us and be part of a dynamic academic community.</p>
+                <a href="#" class="learn-more">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course -->
+    <section class="courses">
+        <h2 class="section-title">Explore Our Courses</h2>
+        <p class="section-subtitle">
+            Unlock your potential with our diverse range of courses designed to empower you with knowledge and skills for the future.
+        </p>
+    
+        <div class="course-list">
+            <div class="course-item">
+                <h3>Web Development</h3>
+                <p>Master the art of coding and build stunning, responsive websites with HTML, CSS, JavaScript, and beyond.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+    
+            <div class="course-item">
+                <h3>Data Science & AI</h3>
+                <p>Step into the world of data and AI. Learn Python, machine learning, and data visualization to shape the future.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+    
+            <div class="course-item">
+                <h3>Business & Marketing</h3>
+                <p>Develop business strategies, master digital marketing, and unlock entrepreneurial success with expert-led courses.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Campus -->
+    <section class="global-campus">
+        <h2 class="section-title">Our Global Campus</h2>
+        <p class="section-subtitle">
+            Experience world-class education from anywhere! Our campuses are spread across the globe, providing a dynamic and inclusive learning environment.
+        </p>
+    
+        <div class="campus-locations">
+            <div class="campus-item">
+                <img src="assets/newyork.png" alt="Campus USA">
+                <h3>New York, USA</h3>
+                <p>A hub of innovation and creativity, our New York campus offers cutting-edge facilities and diverse learning opportunities.</p>
+            </div>
+    
+            <div class="campus-item">
+                <img src="assets/london.png" alt="Campus UK">
+                <h3>London, UK</h3>
+                <p>Located in the heart of the city, our London campus blends tradition with modern education, fostering a global perspective.</p>
+            </div>
+    
+            <div class="campus-item">
+                <img src="assets/washington.png" alt="Campus washington">
+                <h3>washington, USA</h3>
+                <p>Surrounded by natural beauty, our washington campus provides an inspiring setting for academic and personal growth.</p>
+            </div>
+        </div>
+    
+        <a href="#" class="btn">Explore More Campuses</a>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h2 class="section-title">Our World-Class Facilities</h2>
+        <p class="section-subtitle">
+            Experience the best learning environment with cutting-edge facilities designed to support academic excellence and student life.
+        </p>
+    
+        <div class="facilities-container">
+            <div class="facility-item" data-aos="fade-up">
+                <img src="assets/library.png" alt="Modern Library">
+                <h3>State-of-the-Art Library</h3>
+                <p>Access thousands of books, digital resources, and private study areas to enhance your learning experience.</p>
+            </div>
+    
+            <div class="facility-item" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/laboratory.png" alt="Advanced Laboratories">
+                <h3>Advanced Laboratories</h3>
+                <p>Conduct groundbreaking research and gain hands-on experience with the latest technology and equipment.</p>
+            </div>
+    
+            <div class="facility-item" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/basketball.png" alt="Sports Complex">
+                <h3>Sports & Recreation</h3>
+                <p>Stay active with our fully equipped gym, Olympic-sized swimming pool, and various sports courts.</p>
+            </div>
+    
+            <div class="facility-item" data-aos="fade-up" data-aos-delay="600">
+                <img src="assets/auditorium.jpg" alt="Auditorium">
+                <h3>Modern Auditorium</h3>
+                <p>Host conferences, events, and seminars in our high-tech auditorium with top-tier acoustics and seating.</p>
+            </div>
+
+            <div class="facility-item" data-aos="fade-up" data-aos-delay="600">
+                <img src="assets/cafeteria.png" alt="Auditorium">
+                <h3>Spacious Cafeteria</h3>
+               <p>Enjoy a wide variety of delicious and healthy meals in our vibrant cafeteria, designed for comfort and socializing.</p>
+            </div>
+            
+        </div>
+    
+        <a href="#" class="btn">Explore More Facilities</a>
+    </section>
+
+    <!--Testimonials  -->
+    <section class="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-wrapper">
+        <div class="testimonial-container">
+            <div class="testimonial-slide">
+                <img src="assets/user1.jpg" alt="Student 1">
+                <p>“This university has completely transformed my academic journey. The professors are inspiring, and the learning environment is outstanding!”</p>
+                <h4>- Emily Johnson, Computer Science</h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="testimonial-slide">
+                <img src="assets/user2.jpg" alt="Student 2">
+                <p>“The campus facilities and extracurricular activities have given me endless opportunities to grow both academically and personally.”</p>
+                <h4>- Alex Thompson, Business Management</h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="testimonial-slide">
+                <img src="assets/user-3.webp" alt="Student 3">
+                <p>“Studying here has been a life-changing experience. The innovative curriculum and supportive community made learning enjoyable!”</p>
+                <h4>- Sophia Lee, Engineering</h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+        </div>
+        </div>
+        <div class="testimonial-buttons">
+            <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog">
+        <h2 class="section-title">Latest from Our Blog</h2>
+        <p class="section-subtitle">Stay updated with insights, news, and expert advice.</p>
+    
+        <div class="blog-container">
+            <div class="blog-card">
+                <img src="assets/Blog3.webp" alt="Blog Image">
+                <div class="blog-content">
+                    <h3>Top 10 Courses for 2025</h3>
+                    <p>Discover the most in-demand courses that will shape the future of education.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+    
+            <div class="blog-card">
+                <img src="assets/Blog2.webp" alt="Blog Image">
+                <div class="blog-content">
+                    <h3>How to Succeed in Online Learning</h3>
+                    <p>Tips and strategies to stay productive and excel in your online studies.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+    
+            <div class="blog-card">
+                <img src="assets/blog1.webp" alt="Blog Image">
+                <div class="blog-content">
+                    <h3>The Future of Education: AI & Tech</h3>
+                    <p>Explore how artificial intelligence is transforming the education industry.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to action -->
+    <section class="cta">
+        <h2>Start Your Journey Today!</h2>
+        <p>Join a global community of learners and unlock endless opportunities. Enroll now and shape your future with world-class education!</p>
+        <a href="#enroll" class="cta-btn">Get Started</a>
+    </section> 
+    
+    <!-- Contact -->
+    <section class="contact">
+        <div class="contact-container">
+            <h2>Get in Touch</h2>
+            <p>Have any questions? We're here to help! Contact us for admissions, courses, or general inquiries.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>123 University Street, City, Country</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+123 456 7890</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contact@university.com</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="University Logo">
+                <p>Empowering minds, shaping the future.</p>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fa-solid fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fa-solid fa-envelope"></i> info@university.com</p>
+                <p><i class="fa-solid fa-map-marker-alt"></i> 123 University Ave, City, Country</p>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2025 Your University | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    
+</body>
+<script src="script.js"></script>
+
+</html>

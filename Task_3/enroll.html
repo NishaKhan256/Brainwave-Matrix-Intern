@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website Design || ScholarlyHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="enroll" id="enroll">
+        <h2>Enroll Now</h2>
+        <p>Start your journey with us! Fill out the form below to enroll in our courses.</p>
+        
+        <form id="enrollForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <select id="course">
+                <option value="">Select Course</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="AI & Machine Learning">AI & Machine Learning</option>
+            </select>
+            <button type="submit" class="enroll-btn">Enroll Now</button>
+        </form>
+        
+        <p id="successMessage" class="hidden">Thank you for enrolling! We will contact you soon.</p>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
